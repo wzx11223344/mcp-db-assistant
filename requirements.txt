@@ -1,0 +1,10 @@
+# MCP数据库助手服务器依赖
+
+# MCP协议核心库（FastMCP框架）
+mcp>=1.0.0
+
+# 数据分析
+pandas>=2.0.0
+
+# PostgreSQL支持（可选，仅在连接PostgreSQL时需要）
+# psycopg2-binary>=2.9.0
