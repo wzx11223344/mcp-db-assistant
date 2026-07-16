@@ -8,3 +8,7 @@ pandas>=2.0.0
 
 # PostgreSQL支持（可选，仅在连接PostgreSQL时需要）
 # psycopg2-binary>=2.9.0
+
+# 测试与代码质量
+pytest>=7.0
+flake8>=6.0

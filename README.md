@@ -1,5 +1,7 @@
 # 数据库助手MCP服务器 (mcp-db-assistant)
 
+[![CI](https://github.com/wzx11223344/mcp-db-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/wzx11223344/mcp-db-assistant/actions/workflows/ci.yml)
+
 基于 MCP (Model Context Protocol) 协议的数据库操作服务器，使用 FastMCP 框架构建，为 AI 客户端提供数据库连接、查询、Schema 探索、数据分析和 SQL 生成工具。
 
 ## 特性
@@ -153,6 +155,21 @@ mcp-db-assistant/
 - **sqlite3** - Python标准库，SQLite数据库引擎
 - **pandas** - 数据分析和处理
 - **psycopg2**（可选） - PostgreSQL数据库适配器
+
+## 测试
+
+运行单元测试：
+
+```bash
+pip install pytest flake8
+pytest tests/ -v --tb=short
+```
+
+代码质量检查：
+
+```bash
+flake8 . --count --max-line-length=120 --statistics
+```
 
 ## 许可证
 
